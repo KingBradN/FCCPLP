@@ -1,0 +1,78 @@
+/* 
+# Primary 
+
+-Linear-gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%) 
+
+# Neutral 
+
+-Very Light Grayish Blue: hsl(240, 78%, 98%) 
+-Light grayish Blue: hsl(234, 14%, 74%) 
+-Greyish Blue: hsl(233, 13%, 49%) 
+-Dark Greyish Blue: hsl(233, 13%, 39%) 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    background-color: #ffdb15;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #8a7400;
+    color: #000;
+    display: inline-block;
+    padding: 12px 15px;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.btn:active {
+    box-shadow: 0 0 0 #8a7400;
+    transform: translate(2px, 2px);
+}
+
+.container {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #ffdb15;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.nav-link {
+    color: indigo;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.header_left {
+    padding-right: 20px;
+    width: 60%;
+}
+
+.header_left p {
+    text-align: justify;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
