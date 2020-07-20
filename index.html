@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 
 <body>
@@ -14,10 +15,10 @@
             <a href="#about" class="nav-link">About</a>
             <a href="#features" class="nav-link">Features</a>
             <a href="#video" class="nav-link">Video</a>
-            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#join" class="nav-link">Join</a>
         </nav>
 
-        <div class="container">
+        <div class="container" id="about">
             <div class="header_left">
                 <h1>Application Ideas</h1>
                 <p>Have you ever wanted to build something but you had no idea what to do? Just as authors sometimes have "writers block". It is also true for developers. This list is sure to solve this very issue, once and for all! 🙌 </p>
@@ -25,14 +26,52 @@
                 <a href="#" class="btn">Repo Link</a>
             </div>
             <div class="header_right">
-                <img src="Pommery.jpg" alt="Pommery Champaigne" id="header-image" />
+                <img src="Pommery.jpg" alt="Pommery Champaigne" id="header-img" />
             </div>
         </div>
     </header>
-    <main>
-        <p>All</p>
-    </main>
+    <section id="features">
+        <h2>Features</h2>
+        <div class="container">
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h2>User Stories</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime accusamus ducimus ipsa qui aperiam quo doloribus, eos excepturi tempora facilis.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-plus"></i>
+                <h2>Bonus Features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptas quibusdam quaerat. Repellat sequi, doloribus nostrum provident vero, omnis tempora maxime vitae ex, eos nemo sapiente porro accusantium obcaecati animi.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-boxes"></i>
+                <h2>Resources and Examples</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos qui distinctio vel sapiente eveniet, natus doloribus tenetur sit explicabo minus possimus dolorum quos et!</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="video">
+        <h2>Video</h2>
+        <div class="container">
+            <iframe width="680" height="315" src="https://www.youtube.com/embed/TNzCfgwIDCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="join" class="bg-yellowish">
+        <div class="container">
+            <form action="https://www.freecodecamp.com/email-submit">
+                <h2>Subscribe to our news letter</h2>
+                <div class="horizon">
+                    <input type="email" id="e-mail" placeholder="Enter your e-mail address...">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>Made with <i class="fas fa-heart"></i> by <b>Bradley Ngubane</b></footer>
 </body>
 
 </html>
