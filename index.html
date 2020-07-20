@@ -12,9 +12,9 @@
 <body>
     <header id="header">
         <nav id="nav-bar">
-            <a href="#about" class="nav-link">About</a>
+            <a href="#header" class="nav-link">About</a>
             <a href="#features" class="nav-link">Features</a>
-            <a href="#video" class="nav-link">Video</a>
+            <a href="#video-wrapper" class="nav-link">Video</a>
             <a href="#join" class="nav-link">Join</a>
         </nav>
 
@@ -23,7 +23,7 @@
                 <h1>Application Ideas</h1>
                 <p>Have you ever wanted to build something but you had no idea what to do? Just as authors sometimes have "writers block". It is also true for developers. This list is sure to solve this very issue, once and for all! 🙌 </p>
 
-                <a href="#" class="btn">Repo Link</a>
+                <a href="#" class="btn">Go to Repo</a>
             </div>
             <div class="header_right">
                 <img src="Pommery.jpg" alt="Pommery Champaigne" id="header-img" />
@@ -51,20 +51,20 @@
         </div>
     </section>
 
-    <section id="video">
+    <section id="video-wrapper">
         <h2>Video</h2>
         <div class="container">
-            <iframe width="680" height="315" src="https://www.youtube.com/embed/TNzCfgwIDCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="video" width="680" height="315" src="https://www.youtube.com/embed/TNzCfgwIDCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
     <section id="join" class="bg-yellowish">
         <div class="container">
-            <form action="https://www.freecodecamp.com/email-submit">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <h2>Subscribe to our news letter</h2>
                 <div class="horizon">
-                    <input type="email" id="e-mail" placeholder="Enter your e-mail address...">
-                    <button class="btn">Submit</button>
+                    <input type="email" id="e-mail" name="email" placeholder="Enter your e-mail address..." />
+                    <input type="submit" id="submit" class="btn btn-ghost" value="Submit" />
                 </div>
             </form>
         </div>
