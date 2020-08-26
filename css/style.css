@@ -233,9 +233,11 @@ footer .fa-heart {
         margin: 10px;
         border-radius: 5px;
     }
-    .horizon input,
+    .horizon input {
+        width: 100%;
+    }
     /* .horizon, */
-    .btn-ghost {
+    .horizon .btn .btn-ghost {
         margin: 5px 10px;
         width: 100%;
     }
