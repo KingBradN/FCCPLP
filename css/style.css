@@ -234,9 +234,14 @@ footer .fa-heart {
         border-radius: 5px;
     }
     .horizon input,
-    .horizon,
+    /* .horizon, */
     .btn-ghost {
         margin: 5px 10px;
         width: 100%;
+    }
+    .bg-yellowish .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
